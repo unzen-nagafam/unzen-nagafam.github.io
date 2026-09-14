@@ -9,7 +9,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0N2949QVJW"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-0N2949QVJW');</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Jost:wght@600&display=swap">
 <style>
 :root{
   --ground:#F3F5F0; --ground-2:#E9EDE5; --ink:#1E2A24; --ink-2:#4A5A50; --moss:#2F5A45; --moss-deep:#1F3F30;
@@ -180,12 +180,19 @@ footer{padding:48px 0 40px;border-top:1px solid var(--line);font-size:.85rem;col
 @media(max-width:760px){.rcols{grid-template-columns:1fr}.rintro{grid-template-columns:1fr}.rintro img{aspect-ratio:4/3}}
 .rbtn{display:inline-flex;justify-content:center;padding:12px 18px;border-radius:999px;background:var(--moss);color:#fff;text-decoration:none;font-weight:700;font-size:.9rem;letter-spacing:.04em}
 .rbtn:hover,.rbtn:focus-visible{background:var(--moss-deep)}
+
+.brand{display:inline-flex;align-items:center;gap:10px}
+.brand .lg{width:28px;height:auto;flex:none}
+.hero-mark .lg{width:clamp(64px,9vw,96px);height:auto;margin:0 auto 4px;filter:drop-shadow(0 4px 14px rgba(0,0,0,.35))}
+.ft-brand .brand{flex-direction:column;gap:6px;align-items:flex-start}
+.ft-brand .brand .lg{width:44px}
+.ft-brand .brand small{font-family:"Jost","Zen Kaku Gothic New",sans-serif;font-size:.62rem;letter-spacing:.3em;color:var(--ink-2);font-weight:600}
 </style>
 </head>
 <body>
 
 <header class="hd" id="hd">
-  <a class="brand" href="#top">雲仙ながふぁむ</a>
+  <a class="brand" href="#top"><svg class="lg" viewBox="80 30 240 270" aria-hidden="true"><defs><mask id="lgmh"><rect x="0" y="0" width="400" height="420" fill="#fff"/><ellipse cx="200" cy="210" rx="54" ry="88" fill="#000"/></mask></defs><ellipse cx="148" cy="212" rx="44" ry="72" fill="currentColor" mask="url(#lgmh)"/><ellipse cx="252" cy="212" rx="44" ry="72" fill="currentColor" mask="url(#lgmh)"/><ellipse cx="200" cy="210" rx="48" ry="82" fill="currentColor"/><path d="M234 44 c12 -8 24 0 21 10 c-3 9 -15 8 -15 0 c0 -6 7 -8 10 -4" fill="none" stroke="currentColor" stroke-width="7.5" stroke-linecap="round"/><path d="M200 112 C200 92 208 74 224 60" fill="none" stroke="currentColor" stroke-width="22" stroke-linecap="round"/><path d="M110 122 C132 88 176 90 200 110 C176 128 134 132 110 122 Z" fill="#D9A22E"/><path d="M110 122 C140 130 176 128 200 110" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round"/><path d="M290 122 C268 88 224 90 200 110 C224 128 266 132 290 122 Z" fill="#D9A22E"/><path d="M290 122 C260 130 224 128 200 110" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round"/></svg><span>雲仙ながふぁむ</span></a>
   <nav class="nav">
     <a href="#omoi">想い</a><a href="#story">畑の物語</a><a href="#kodawari">こだわり</a><a href="#manjiro">万次郎かぼちゃ</a><a href="#recipe">レシピ</a><a href="#voice">お客様の声</a><a href="#buy">ご購入</a>
   </nav>
@@ -199,6 +206,7 @@ footer{padding:48px 0 40px;border-top:1px solid var(--line);font-size:.85rem;col
     <div class="slide s4"></div>
   </div>
   <div class="hero-in">
+    <div class="hero-mark"><svg class="lg" viewBox="80 30 240 270" aria-hidden="true"><defs><mask id="lgmx"><rect x="0" y="0" width="400" height="420" fill="#fff"/><ellipse cx="200" cy="210" rx="54" ry="88" fill="#000"/></mask></defs><ellipse cx="148" cy="212" rx="44" ry="72" fill="#FFFFFF" mask="url(#lgmx)"/><ellipse cx="252" cy="212" rx="44" ry="72" fill="#FFFFFF" mask="url(#lgmx)"/><ellipse cx="200" cy="210" rx="48" ry="82" fill="#FFFFFF"/><path d="M234 44 c12 -8 24 0 21 10 c-3 9 -15 8 -15 0 c0 -6 7 -8 10 -4" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round"/><path d="M200 112 C200 92 208 74 224 60" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round"/><path d="M110 122 C132 88 176 90 200 110 C176 128 134 132 110 122 Z" fill="#D9A22E"/><path d="M110 122 C140 130 176 128 200 110" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/><path d="M290 122 C268 88 224 90 200 110 C224 128 266 132 290 122 Z" fill="#D9A22E"/><path d="M290 122 C260 130 224 128 200 110" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/></svg></div>
     <div class="eyebrow">Unzen Nagafam — Nagasaki, Japan</div>
     <h1>子どもたちに、<br>安心して食べてほしいから。</h1>
     <p>祖父が遺した畑で、農薬・化学肥料・除草剤を使わずに、万次郎かぼちゃを育てています。砂糖いらずの甘さで、料理がたのしくなるかぼちゃです。</p>
@@ -374,7 +382,7 @@ footer{padding:48px 0 40px;border-top:1px solid var(--line);font-size:.85rem;col
 
 <footer>
   <div class="wrap ft">
-    <div><a class="brand nou" href="#top">雲仙ながふぁむ</a><div class="mt6">長崎県雲仙市｜万次郎かぼちゃ農園｜農薬・化学肥料・除草剤不使用</div></div>
+    <div class="ft-brand"><a class="brand nou" href="#top"><svg class="lg" viewBox="80 30 240 270" aria-hidden="true"><defs><mask id="lgmf"><rect x="0" y="0" width="400" height="420" fill="#fff"/><ellipse cx="200" cy="210" rx="54" ry="88" fill="#000"/></mask></defs><ellipse cx="148" cy="212" rx="44" ry="72" fill="#3B2A1E" mask="url(#lgmf)"/><ellipse cx="252" cy="212" rx="44" ry="72" fill="#3B2A1E" mask="url(#lgmf)"/><ellipse cx="200" cy="210" rx="48" ry="82" fill="#3B2A1E"/><path d="M234 44 c12 -8 24 0 21 10 c-3 9 -15 8 -15 0 c0 -6 7 -8 10 -4" fill="none" stroke="#3B2A1E" stroke-width="7.5" stroke-linecap="round"/><path d="M200 112 C200 92 208 74 224 60" fill="none" stroke="#3B2A1E" stroke-width="22" stroke-linecap="round"/><path d="M110 122 C132 88 176 90 200 110 C176 128 134 132 110 122 Z" fill="#D9A22E"/><path d="M110 122 C140 130 176 128 200 110" fill="none" stroke="#3B2A1E" stroke-width="9" stroke-linecap="round"/><path d="M290 122 C268 88 224 90 200 110 C224 128 266 132 290 122 Z" fill="#D9A22E"/><path d="M290 122 C260 130 224 128 200 110" fill="none" stroke="#3B2A1E" stroke-width="9" stroke-linecap="round"/></svg><span>雲仙ながふぁむ</span><small>UNZEN NAGAFAM</small></a><div class="mt6">長崎県雲仙市｜万次郎かぼちゃ農園｜農薬・化学肥料・除草剤不使用</div></div>
     <nav><a href="https://www.tabechoku.com/producers/28670" target="_blank" rel="noopener">食べチョク</a><a href="https://www.instagram.com/unzen_nagafam/" target="_blank" rel="noopener">Instagram</a><a href="https://www.threads.com/@unzen_nagafam" target="_blank" rel="noopener">Threads</a></nav>
     <div>© 2026 Unzen Nagafam</div>
   </div>
